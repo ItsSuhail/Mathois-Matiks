@@ -186,6 +186,8 @@ while(True):
 
     if number < -1:
         print("INVALID INPUT, enter a number >= 0")
+        continue
+    
     if number == -1:
         print(pepe_hepi)
         print("PEACE")
